@@ -1,6 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
-
+#include <QtWidgets>
 QDir presetDirectory; // Path for Preset Directory
 QDir backupPath; // Patch for Backup Directory
 
@@ -212,7 +212,7 @@ MainWindow::MainWindow(QWidget *parent) :
     //sourceOne[0] = '\x01';
     //sourceOne[1] = '\0';
 
-    //sourceTwo[0] = '\x00';
+    //sourceTwo[0] = '\x00';q
     //sourceTwo[1] = '\0';
 
     //guitarIn[0] = '\x00';

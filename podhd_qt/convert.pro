@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT       += widgets
 
 TARGET = convert
 TEMPLATE = app
@@ -22,8 +23,10 @@ FORMS    += mainwindow.ui \
 
 #CONFIG += static
 
-QMAKE_LFLAGS += -static-libgcc
 
-#win32 {
-#    QMAKE_LFLAGS += -static-libgcc
-#    }
+win32 {
+    QMAKE_LFLAGS += -static-libgcc
+}
+
+macOSX {
+}

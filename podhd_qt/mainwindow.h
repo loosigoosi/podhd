@@ -7,11 +7,11 @@
 //#include <cmath>
 //#include <cstdlib>
 
-#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
 #include <QDir>
 #include <QList>
-#include <QCheckBox>
-#include <QFileDialog>
+#include <QtWidgets/QCheckBox>
+#include <QtWidgets/QFileDialog>
 #include <QDebug>
 #include <QStringList>
 #include <QFile>

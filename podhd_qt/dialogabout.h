@@ -1,7 +1,7 @@
 #ifndef DIALOGABOUT_H
 #define DIALOGABOUT_H
 
-#include <QWidget>
+#include <QtWidgets/QWidget>
 
 namespace Ui {
 class dialogAbout;
